@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+    
+}
+.navbar-main{
+    width: 100%;
+    height: 700px;
+    position: relative;
+    background-image:url(https://startbootstrap.github.io/startbootstrap-creative/assets/img/bg-masthead.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    overflow: hidden;
+}
+.color{
+    height: 700px;
+    width: 100%;
+    position: absolute;
+    background-color: rgba(61, 60, 59, 0.725);
+}
+.nav-div-1{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    
+}
+.nav-div-1 h1{
+    margin-left: 90px;
+    
+}
+.nav-div-1 li{
+    list-style: none;
+}
+.nav-div-1 ul a:hover{
+    color:rgb(220, 220, 220);
+    transition: .2s;
+    
+}
+.nav-div-1 ul{
+    display: flex;
+    margin-right: 120px;
+    gap: 30px;
+    font-size: 18px;
+    font-weight: bolder;
+}
+.nav-div-1 a{
+    text-decoration: none;
+    color: rgb(156, 156, 156);
+}
+.yazi{
+    width: 100%;
+    height: 400px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     position: relative;
+}
+.yazi-div1{
+    width: 700px;
+    height: 500px;
+    margin-top: 400px;
+    color: white;
+    font-size: 45px;
+}
+.yazi-div1 hr{
+    margin-top: 20px;
+    margin-right: 230px;
+    margin-left: 230px;
+    border-color: orange;
+}
+.yazi-div1 p{
+    color: white;
+    font-size: 22px;
+    margin-top: 40px;
+}
+.yazi-div1 button{
+    border-radius: 10rem;
+    padding: 1.25rem 2.25rem;
+    background-color: orange;
+    border: none;
+    color: white;
+    font-size: 14px;
+    margin-top: 40px;
+    font-weight: bold;
+}
+.yazi-div1 button:hover{
+    background-color: rgb(164, 107, 0);
+    transition: .3s;
+}
+.s1{
+    background-color: orange;
+    color: white;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+.s1-d1{
+    width: 800px;
+    height: 500px;
+    margin-top: 200px;
+    color: white;
+    font-size: 30px; 
+}
+.s1-d1 hr{
+    margin-top: 20px;
+    margin-right: 230px;
+    margin-left: 230px;
+    border-color: rgb(255, 255, 255);
+}
+.s1-d1 p{
+    color: white;
+    font-size: 22px;
+    margin-top: 40px;
+}
+.s1-d1 button{
+    border-radius: 10rem;
+    padding: 1.25rem 2.25rem;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    color: rgb(79, 79, 79);
+    font-size: 14px;
+    margin-top: 40px;
+    font-weight: bold;
+}
+.s1-d1 button:hover{
+    background-color: rgb(136, 136, 136);
+    transition: .3s;
+    cursor: pointer;
+}
+.s2{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    text-align: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: darkgrey;
+    
+}
+.s2-d1{
+    width: 800px;
+    height: 100px;
+    
+    color: white;
+    font-size: 30px; 
+
+}
+.s2-d1 button{
+    border-radius: 10rem;
+    padding: 1.25rem 2.25rem;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    color: rgb(79, 79, 79);
+    font-size: 14px;
+    margin-top: 40px;
+    font-weight: bold;
+}
